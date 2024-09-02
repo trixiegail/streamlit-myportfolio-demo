@@ -20,7 +20,8 @@ if 'guessed_crush' not in st.session_state:
     st.session_state.guessed_crush = None
 
 if st.button("Guess My Crush"):
-    crushes = ["Isko Moreno", "Sara Duterte", "Lean", "Desiree", "Manny Pacquiao", "Balmond", "Alucard"]
+    crushes = ["Isko Moreno", "Sara Duterte", "Lean", "Desiree", "Manny Pacquiao", "Balmond", "Alucard", 
+               "Tonyang", "Crush ko nimo sah?", "Bongbong Marcos", "Nana", "Way naibog nimo"]
     st.session_state.guessed_crush = random.choice(crushes)
     st.write(f"Your crush might be... **{st.session_state.guessed_crush}**!")
 
