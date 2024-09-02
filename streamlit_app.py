@@ -9,7 +9,7 @@ about_page = st.Page(
     default=True,
 )
 project_1_page = st.Page(
-    "views/sales_dashboard.py",
+    "views/crush_app.py",
     title="Play & Discover",
     icon=":material/bar_chart:",
 )
